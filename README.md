@@ -1,9 +1,11 @@
 # cfPython_Achivement1
 
 ## Objective
+
 The goal of this project is to build a command-line version of a Recipe app, which will serve as a precursor to its web app counterpart. This project focuses on learning Python fundamentals, data structures, object-oriented programming, and database interaction using Python.
 
 ## Context
+
 Building a website with the Django web framework is primarily done in Python, leveraging its object-oriented nature. This project will help you understand Python programming, data structures, and OOP principles, which are crucial for working with Django. Additionally, you'll learn how to interact with databases using Python, making it easier when working with Django. This project emphasizes standard programming practices to make your code simple, readable, and robust.
 
 ## Project Deliverables
@@ -43,13 +45,22 @@ Throughout this project, you will complete several exercises, each contributing 
 - Implement a detailed display of the recipe selected by the user
 
 ## Getting Started
-Install Python: Follow the instructions for your operating system to install Python.
-Create Virtual Environment:
+1. Install Python: Follow the instructions for your operating system to install Python.
+2. Create Virtual Environment: python -m venv env
+3. Activate Virtual Environment Windows: .\env\Scripts\activate macOS/Linux: source env/bin/activate
+4. Install Required Packages: pip install -r requirements.txt
+5. Run the Application: python main.py
 
 ## Requirements
 - Python 3.6 or higher
 - MySQL
 - SQLAlchemy
+
+## Contribution
+Feel free to fork this repository and contribute by submitting pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+This project is licensed under the MIT License.
 
 # Contributors
 - [Vadym Makohon](https://github.com/VadymMakohon)
