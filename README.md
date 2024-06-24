@@ -1,4 +1,4 @@
-# cfPython
+# cfPython_Achivement1
 
 ## Objective
 The goal of this project is to build a command-line version of a Recipe app, which will serve as a precursor to its web app counterpart. This project focuses on learning Python fundamentals, data structures, object-oriented programming, and database interaction using Python.
