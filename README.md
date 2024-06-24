@@ -50,3 +50,6 @@ Create Virtual Environment:
 - Python 3.6 or higher
 - MySQL
 - SQLAlchemy
+
+# Contributors
+- [Vadym Makohon](https://github.com/VadymMakohon)
