@@ -47,7 +47,9 @@ Throughout this project, you will complete several exercises, each contributing 
 ## Getting Started
 1. Install Python: Follow the instructions for your operating system to install Python.
 2. Create Virtual Environment: python -m venv env
-3. Activate Virtual Environment Windows: .\env\Scripts\activate macOS/Linux: source env/bin/activate
+3. Activate Virtual Environment: 
+Windows: .\env\Scripts\activate 
+macOS/Linux: source env/bin/activate
 4. Install Required Packages: pip install -r requirements.txt
 5. Run the Application: python main.py
 
