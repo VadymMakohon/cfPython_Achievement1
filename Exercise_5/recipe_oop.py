@@ -40,3 +40,4 @@ class Recipe():
         elif cooking_time >= 10 and len(ingredients) > 4:
             difficulty = "Hard"
         self.difficulty = difficulty
+        
