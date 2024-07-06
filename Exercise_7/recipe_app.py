@@ -66,7 +66,6 @@ def return_ingredients_as_list(self):
         else:
             return []
 
-
 # ----------------------------- #
 # ------- create recipe ------- #
 # ----------------------------- #
@@ -117,8 +116,6 @@ def create_recipe():
     print(f"\n\033[92m{name.upper()} has been saved to the database\033[0m")
     print("\n-------------------------------\n")
 
-
-
 # ------------------------------ #
 # ------ view all recipes ------ #
 # ------------------------------ #
@@ -138,8 +135,6 @@ def view_all_recipes():
         for recipe in all_recipes:
             print(recipe)
             print("\n----------------------")
-
-
 
 # ----------------------------- #
 # ----- search for recipe ----- #
@@ -197,8 +192,6 @@ def search_recipe():
     except ValueError:
         print(
             "Invalid input. Please enter a valid ingredient number.")
-
-
 
 # ----------------------------- #
 # -------- edit recipe -------- #
@@ -265,9 +258,6 @@ def edit_recipe():
     except ValueError:
         print("\nInvalid input. Please enter a valid option.\n")
 
-
-
-
 # ----------------------------- #
 # ------- delete recipe ------- #
 # ----------------------------- #
@@ -302,8 +292,6 @@ def delete_recipe():
 
     except ValueError:
         print("Invalid input. Please enter a valid recipe ID.")
-
-
 
 # ------------------------------ #
 # ----- create a main menu ----- #
@@ -346,7 +334,6 @@ def main_menu():
 
         except ValueError:
             print("\nERROR: Invalid selection, please try again.")
-
 
 main_menu()
 session.close()
